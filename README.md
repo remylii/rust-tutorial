@@ -23,7 +23,7 @@ curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly
 `.zshprofile`などに、
 
 ```
-export "$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
 ```
 
 を追加。
